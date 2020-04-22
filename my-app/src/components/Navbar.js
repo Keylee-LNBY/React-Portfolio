@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return(
         <nav class="grey darken-3">
-            <div class="nav-wrapper">
+            <div class="nav-wrapper container">
                 <a href="#" class="brand-logo">Kelly Lineberry</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="https://github.com/Keylee-LNBY" target="_blank">GitHub</a></li>
