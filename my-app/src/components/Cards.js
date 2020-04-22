@@ -10,7 +10,7 @@ const Cards = () => {
             "This modern mood ring journal allows you to record and reflect on your feelings.",
         github: "https://github.com/Keylee-LNBY/MoJo",
         deployment: "https://aqueous-sea-47525.herokuapp.com/",
-        img: "public/mojo.png",
+        img: "images/mojo.png",
         },
         {
         id: 2,
@@ -19,7 +19,7 @@ const Cards = () => {
             "This application pulls in the Open Weather API and display current and future weather conditions for a city of the users choice.",
         github: "https://github.com/Keylee-LNBY/Weather",
         deployment: "https://keylee-lnby.github.io/Weather/",
-        img: "public/weather.png",
+        img: "images/weather.png",
         },
         {
         id: 3,
@@ -28,7 +28,7 @@ const Cards = () => {
             "DishOut is an application aimed to help users find recipes for ingredients that have been stuck unused in their pantries or fridge.",
         github: "https://github.com/Keylee-LNBY/DishOut",
         deployment: "https://keylee-lnby.github.io/DishOut/",
-        img: "public/dishout.png",
+        img: "images/dishout.png",
         },
         {
         id: 4,
@@ -37,7 +37,7 @@ const Cards = () => {
             "An application that helps you visually track your fitness with charts that update as you input information.",
         github: "https://github.com/Keylee-LNBY/Fitness-Tracker",
         deployment: "https://shrouded-ridge-77681.herokuapp.com/",
-        img: "public/fitness.png",
+        img: "images/fitness.png",
         },
         {
         id: 5,
@@ -46,7 +46,7 @@ const Cards = () => {
             "This is an application that allows users to track their transactions on & offline. Users are also given a chart to have a visual of their transactions, and the total money they have left.",
         github: "https://github.com/Keylee-LNBY/Budgetting-App",
         deployment: "https://secret-beach-48232.herokuapp.com/",
-        img: "public/budget.png",
+        img: "images/budget.png",
         },
         {
         id: 6,
@@ -55,7 +55,7 @@ const Cards = () => {
             "This is a application for simpe games built using React & Pixi.js.",
         github: "https://github.com/Keylee-LNBY/UntitledError404",
         deployment: "https://github.com/Keylee-LNBY/UntitledError404",
-        img: "public/untitled.png",
+        img: "images/untitled.png",
         }
     ];
 
@@ -67,8 +67,8 @@ const Cards = () => {
         <div className="row">
           {
             projects.map((object) => (
-              <div className="col s12 m6 l4">
-                <div className="card">
+              <div className="col s12 m6 14">
+                <div className="card grey accent-1">
                   <div className="card-image">
                     <img src={object.img} />
                   </div>
@@ -81,11 +81,11 @@ const Cards = () => {
                       style={{ padding: "auto auto !important", margin: "auto auto !important" }}>
                       <div className="col s6 m12 l6">
                         <a href={object.github} class="card-link"
-                          target="_blank">Github ></a>
+                          target="_blank">GitHub</a>
                       </div>
                       <div className="col s6 m12 l6">
                         <a href={object.deployment} class="card-link"
-                          target="_blank">deployment Site ></a>
+                          target="_blank">Website</a>
                       </div>
                     </div>
                   </div>
