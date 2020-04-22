@@ -1,19 +1,23 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Cards from './components/Cards';
-import Footer from './components/Footer';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import HomePage from "./pages/index";
 
 function App() {
   return (
-    <div className="m12">
-      <Navbar />
-      <Cards />
-      <Footer />
-    </div>
+    <Router>
+      <NavBar />
+      <div className="container">
+        <Switch>
+          {/* you can only match ONE route inside */}
+          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/" component={HomePage} />
+          {/* take home for anything else */}
+          <Route component={HomePage} />
+        </Switch>
+      </div>
+    </Router>
   );
-};
-
 }
 
 export default App;
