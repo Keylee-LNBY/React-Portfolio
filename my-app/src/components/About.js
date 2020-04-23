@@ -4,7 +4,7 @@ import profileImg from "../images/profilePic.jpg";
 const About = () => {
     return (
         <div class="col s12 grey darken-3">
-            <h2 class="header white-text">About Me</h2>
+            <h4 class="header white-text">     About Me</h4>
             <div class="card horizontal">
                 <div class="card-image grey accent-1">
                     <img src={profileImg}/>
