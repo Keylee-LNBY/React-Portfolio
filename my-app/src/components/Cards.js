@@ -1,4 +1,14 @@
 import React from "react";
+import mojo from "../images/mojo.png";
+import weather from "../images/weather.png";
+import dishout from "../images/dishout.png";
+import fitness from "images/fitness.png";
+import budget from "images/budget.png";
+import untitled from "images/untitled.png";
+
+
+
+
 
 const Cards = () => {
     //Need to move this to it's own json file and import it in
@@ -10,7 +20,7 @@ const Cards = () => {
             "This modern mood ring journal allows you to record and reflect on your feelings.",
         github: "https://github.com/Keylee-LNBY/MoJo",
         deployment: "https://aqueous-sea-47525.herokuapp.com/",
-        img: "images/mojo.png",
+        img: mojo,
         },
         {
         id: 2,
@@ -19,7 +29,7 @@ const Cards = () => {
             "This application pulls in the Open Weather API and display current and future weather conditions for a city of the users choice.",
         github: "https://github.com/Keylee-LNBY/Weather",
         deployment: "https://keylee-lnby.github.io/Weather/",
-        img: "images/weather.png",
+        img: weather,
         },
         {
         id: 3,
@@ -28,7 +38,7 @@ const Cards = () => {
             "DishOut is an application aimed to help users find recipes for ingredients that have been stuck unused in their pantries or fridge.",
         github: "https://github.com/Keylee-LNBY/DishOut",
         deployment: "https://keylee-lnby.github.io/DishOut/",
-        img: "images/dishout.png",
+        img: dishout,
         },
         {
         id: 4,
@@ -37,7 +47,7 @@ const Cards = () => {
             "An application that helps you visually track your fitness with charts that update as you input information.",
         github: "https://github.com/Keylee-LNBY/Fitness-Tracker",
         deployment: "https://shrouded-ridge-77681.herokuapp.com/",
-        img: "images/fitness.png",
+        img: fitness,
         },
         {
         id: 5,
@@ -46,7 +56,7 @@ const Cards = () => {
             "This is an application that allows users to track their transactions on & offline. Users are also given a chart to have a visual of their transactions, and the total money they have left.",
         github: "https://github.com/Keylee-LNBY/Budgetting-App",
         deployment: "https://secret-beach-48232.herokuapp.com/",
-        img: "images/budget.png",
+        img: budget,
         },
         {
         id: 6,
@@ -55,7 +65,7 @@ const Cards = () => {
             "This is a application for simpe games built using React & Pixi.js.",
         github: "https://github.com/Keylee-LNBY/UntitledError404",
         deployment: "https://github.com/Keylee-LNBY/UntitledError404",
-        img: "images/untitled.png",
+        img: untitled,
         }
     ];
 
