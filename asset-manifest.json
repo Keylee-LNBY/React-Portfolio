@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kelly-lineberry/static/css/main.6a8c11cc.chunk.css",
+    "main.js": "/kelly-lineberry/static/js/main.01e6a99e.chunk.js",
+    "main.js.map": "/kelly-lineberry/static/js/main.01e6a99e.chunk.js.map",
+    "runtime-main.js": "/kelly-lineberry/static/js/runtime-main.d789267a.js",
+    "runtime-main.js.map": "/kelly-lineberry/static/js/runtime-main.d789267a.js.map",
+    "static/js/2.35ca5871.chunk.js": "/kelly-lineberry/static/js/2.35ca5871.chunk.js",
+    "static/js/2.35ca5871.chunk.js.map": "/kelly-lineberry/static/js/2.35ca5871.chunk.js.map",
+    "index.html": "/kelly-lineberry/index.html",
+    "precache-manifest.bb88a9450ca8218bea17da6d154b2b1e.js": "/kelly-lineberry/precache-manifest.bb88a9450ca8218bea17da6d154b2b1e.js",
+    "service-worker.js": "/kelly-lineberry/service-worker.js",
+    "static/css/main.6a8c11cc.chunk.css.map": "/kelly-lineberry/static/css/main.6a8c11cc.chunk.css.map",
+    "static/js/2.35ca5871.chunk.js.LICENSE.txt": "/kelly-lineberry/static/js/2.35ca5871.chunk.js.LICENSE.txt",
+    "static/media/budget.png": "/kelly-lineberry/static/media/budget.d537f919.png",
+    "static/media/dishout.png": "/kelly-lineberry/static/media/dishout.db26caf2.png",
+    "static/media/fitness.png": "/kelly-lineberry/static/media/fitness.124cb192.png",
+    "static/media/mojo.png": "/kelly-lineberry/static/media/mojo.9f30011c.png",
+    "static/media/App.css": "/kelly-lineberry/static/media/org.dadc8b8b.jpg",
+    "static/media/profilePic.jpg": "/kelly-lineberry/static/media/profilePic.5c706ede.jpg",
+    "static/media/untitled.png": "/kelly-lineberry/static/media/untitled.d997febc.png",
+    "static/media/weather.png": "/kelly-lineberry/static/media/weather.f7082e4c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d789267a.js",
+    "static/js/2.35ca5871.chunk.js",
+    "static/css/main.6a8c11cc.chunk.css",
+    "static/js/main.01e6a99e.chunk.js"
+  ]
+}
