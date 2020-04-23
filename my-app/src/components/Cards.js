@@ -2,9 +2,9 @@ import React from "react";
 import mojo from "../images/mojo.png";
 import weather from "../images/weather.png";
 import dishout from "../images/dishout.png";
-import fitness from "images/fitness.png";
-import budget from "images/budget.png";
-import untitled from "images/untitled.png";
+import fitness from "../images/fitness.png";
+import budget from "../images/budget.png";
+import untitled from "../images/untitled.png";
 
 
 
@@ -24,12 +24,12 @@ const Cards = () => {
         },
         {
         id: 2,
-        name: "Weather",
+        name: "Untitled 404",
         desciption:
-            "This application pulls in the Open Weather API and display current and future weather conditions for a city of the users choice.",
-        github: "https://github.com/Keylee-LNBY/Weather",
-        deployment: "https://keylee-lnby.github.io/Weather/",
-        img: weather,
+            "This is a application for simpe games built using React & Pixi.js.",
+        github: "https://github.com/Keylee-LNBY/UntitledError404",
+        deployment: "https://github.com/Keylee-LNBY/UntitledError404",
+        img: untitled,
         },
         {
         id: 3,
@@ -59,13 +59,13 @@ const Cards = () => {
         img: budget,
         },
         {
-        id: 6,
-        name: "Untitled 404",
+        id: 2,
+        name: "Weather",
         desciption:
-            "This is a application for simpe games built using React & Pixi.js.",
-        github: "https://github.com/Keylee-LNBY/UntitledError404",
-        deployment: "https://github.com/Keylee-LNBY/UntitledError404",
-        img: untitled,
+            "This application pulls in the Open Weather API and display current and future weather conditions for a city of the users choice.",
+        github: "https://github.com/Keylee-LNBY/Weather",
+        deployment: "https://keylee-lnby.github.io/Weather/",
+        img: weather,
         }
     ];
 

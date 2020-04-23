@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../images/profilePic.jpg";
 
 const About = () => {
     return (
@@ -6,7 +7,7 @@ const About = () => {
             <h2 class="header white-text">About Me</h2>
             <div class="card horizontal">
                 <div class="card-image grey accent-1">
-                    <img src="/images/profilePic.jpg"/>
+                    <img src={profileImg}/>
                 </div>
                 <div class="card-stacked grey accent-1">
                     <div class="card-content">
