@@ -1,13 +1,14 @@
 import React from "react";
 import profileImg from "../images/profilePic.jpg";
 
+
 const About = () => {
     return (
         <div class="col s12 grey darken-3">
-            <h4 class="header white-text">     About Me</h4>
+            <h4 class="header white-text">About Me</h4>
             <div class="card horizontal">
                 <div class="card-image grey accent-1">
-                    <img src={profileImg}/>
+                    <img class="aImg" style={{width:'60%'}} className="pImg" src={profileImg}/>
                 </div>
                 <div class="card-stacked grey accent-1">
                     <div class="card-content">

@@ -37,6 +37,30 @@
   }
 }
 
+
+/* Background Image and Image CSS */
 body {
   background-image: url(./images/org.jpg);
+}
+
+h4 {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+img {
+  border: solid #424242;
+}
+
+nav {
+  border-bottom: solid #e9b258;
+}
+
+footer {
+  border-top: solid #a5d0b4;
+}
+
+.aImg {
+  margin: 5%;
+  border: solid #a5d0b4;
 }
